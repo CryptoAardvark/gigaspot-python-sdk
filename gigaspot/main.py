@@ -317,6 +317,7 @@ class gigaspot_connection:
                     async with session.post(
                         CLORE_API + "/v1/cancel_orders",
                         headers=self.generate_headers(),
+                        data=json.dumps({"order_ids": order_ids}),
                         timeout=20,
                     ) as clore_res:
                         if clore_res.status == 429:
