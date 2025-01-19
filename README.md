@@ -163,7 +163,7 @@ print(edit_res.too_low_bid_ids) # IDs of orders, that their new bid was too low
 
 ```python
 cancel_res = await gigaspot_connection.cancel_orders(
-    [602837]
+    [602837] # IDs of orders to cancel
 )
 
 print(cancel_res.failure) # True/False bool if call could not be executed

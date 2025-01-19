@@ -5,8 +5,9 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='clore_gigaspot',
-    version='0.1.2',
+    version='0.1.3',
     packages=find_packages(),
+    package_dir={"clore_gigaspot": "gigaspot"},
     install_requires=[
         "requests==2.32.3",
         "aiohttp==3.11.11"
