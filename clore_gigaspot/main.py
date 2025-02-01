@@ -11,7 +11,7 @@ import json
 import re
 
 logger = Logger()
-
+#define class
 class InitializationError(Exception):
     pass
 
@@ -89,6 +89,7 @@ def validate_order(order, input_type="create", idx=0):
     return True
         
 
+#define gigaspot_connection
 class gigaspot_connection:
     def __init__(self, gigaspot_api_key):
         self.gigaspot_api_key = gigaspot_api_key
