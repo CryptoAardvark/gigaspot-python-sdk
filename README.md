@@ -1,8 +1,5 @@
-# CLORE GigaSPOT python SDK
+# NODEXA GigaSPOT python SDK
 
-Before proceeding with usage familiarize yourself with
-- https://docs.clore.ai/gigaspot/overview
-- https://gigaspot-api-docs.clore.ai/
 
 #### Import in python & setup connection
 
